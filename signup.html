@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MakeYourCV</title>
+    <link rel="stylesheet" href="assets/css/home.css">
+
+    <script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-app-compat.js"> 
+    </script>
+    <script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-firestore-compat.js">   
+    </script>
+    <script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-auth-compat.js"> 
+    </script>
+  </head>
+
+  <body style="background: linear-gradient(to right, #360033, #0b8793);">
+    <header>
+        <div class="logo">
+            <img src="assets/img/resumeicon.png" alt="" style="filter:brightness(0) invert(1) ;"/><span style="color:rgb(239, 233, 233);"/>MakeYourCV</span>
+          </div>
+    </header>
+    <div class="form_signup">
+      <h2 class="title">Getting started</h2>
+      <form  class="form_pg" id="form">
+        <div class="input-field">
+          <input type="text" placeholder="Enter your name" id="name" required class="inputf" required maxlength="45" autocomplete="off"/>
+        </div>
+        <div class="input-field">
+          <input type="text" id="email" placeholder="Email" required class="inputf" autocomplete="off" required/>
+        </div>
+        <div class="input-field">
+          <input type="password" id="password" placeholder="password" class="inputf"/>
+        </div>
+        
+
+        
+        <div class="input-field button">
+          <button id="regButton" type="button">Signup</button>
+        </div>
+      </form>
+      <div class="login-signup">
+        <h3 class="text"
+          >Already a member?
+          <a href="signin.html" class="text login-link">Login Now</a>
+        </h3>
+      </div>
+     
+    </div>
+    <div class="rightImg">
+        <img src="assets/img/My project.png" >
+    </div>
+
+     <script src="assets/js/signup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: var(--font-poppins);
+  background-color: hsl(0, 0%, 90%);
+}
+.form_signin {
+  border: 1px solid rgba(246, 241, 241, 0.937);
+  position: absolute;
+  top: 13%;
+  width: 600px;
+  left: 29%;
+  border-radius: 15px;
+  /* padding: 40px; */
+}
+.title_container {
+  /* border: 1px solid red; */
+  padding: 10rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/assets/img/imgback.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.title_container h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+}
+.form_pg1 {
+  padding: 40px;
+  background-color: white;
+}
+
+.signin_field {
+  padding: 1rem;
+}
+.inputf {
+  margin-left: 5rem;
+  padding: 20px;
+  width: 400px;
+  font-size: 15px;
+  background: none;
+  border: none;
+  outline: none;
+  color: rgb(79, 17, 213);
+  border-bottom: 1px solid rgb(10, 10, 10);
+}
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+button {
+  background: #5e5df0;
+  border-radius: 999px;
+  box-shadow: #5e5df0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
+    NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
+    EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 9px 20px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 140px;
+  word-break: break-word;
+  border: 0;
+}
+button:hover {
+  background: #682feb;
+}

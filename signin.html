@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MakeYourCV</title>
+    <link rel="stylesheet" href="assets/css/signin.css" />
+
+    <script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-auth-compat.js"></script>
+  </head>
+
+  <body>
+    <div class="form_signin">
+      <div class="title_container"><h2 class="title">Sign In</h2></div>
+      <form class="form_pg1" id="form_in">
+        <div class="signin_field">
+          <input
+            type="text"
+            id="email"
+            placeholder="Email"
+            required
+            class="inputf"
+            autocomplete="off"
+            required
+          />
+        </div>
+        <div class="signin_field">
+          <input
+            type="password"
+            id="password"
+            placeholder="password"
+            class="inputf"
+          />
+        </div>
+        <div class="signin_field button">
+          <button id="signinButton" type="button">Login</button>
+        </div>
+      </form>
+      <!-- <div class="login-signup">
+        <a href="#" class="text login-link">Forgot password?</a>
+      </div> -->
+    </div>
+    <script src="assets/js/signin.js"></script>
+  </body>
+</html>

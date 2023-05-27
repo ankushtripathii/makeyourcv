@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --font-poppins: "Poppins", sans-serif;
+  --font-manrope: "Manrope", sans-serif;
+  --transition: all 300ms ease-in-out;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  padding: 7rem;
+  background: linear-gradient(130deg, #641d81 0%, #000000 74%);
+  position: relative;
+  border-radius: 0 0 0 110px;
+  color: #fff;
+}
+.container::after {
+  content: " ";
+  width: 220px;
+  height: 220px;
+  position: absolute;
+  bottom: -219px;
+  box-shadow: 50px -30px 0 0 rgb(0, 0, 0);
+  right: 0;
+  z-index: 0;
+  border-radius: 0% 50% 0% 0%;
+}
+.container h1 {
+  text-align: center;
+  display: block;
+  font-size: 4em;
+  font-weight: bold;
+}
+.container button {
+  margin-left: 34rem;
+  margin-top: 4rem;
+  padding: 11px 20px;
+  border-radius: 25px;
+  font-size: 1rem;
+  min-height: 50px;
+  font-weight: 800;
+  background-color: #05aef7;
+  color: white;
+  min-width: 250px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+.container button:hover {
+  transform: translateY(5%);
+}
+
+.wrt_data {
+  margin-top: 4rem;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.wrt_container {
+  max-width: 750px;
+  margin: 0 auto;
+}
+p {
+  margin: 0 0 20px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+  color: #002d6b;
+  font-family: var(--font-poppins);
+}
+span {
+  color: orangered;
+  /* text-decoration: underline rgb(255, 8, 0); */
+}
+ul {
+  margin-left: 2.5rem;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+  color: #002d6b;
+  font-family: var(--font-poppins);
+}
+
+/* img */
+img {
+  display: block;
+  margin: 60px auto;
+  border-radius: 0 100px;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+h2 {
+  text-align: center;
+  font-size: 2.8rem;
+  line-height: 2.8rem;
+  font-weight: bold;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #002d6b;
+}
+h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  background: rgb(239, 199, 120);
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-family: "Nunito";
+  display: block;
+  width: fit-content;
+  line-height: 1.4rem;
+  margin-top: 25px;
+  margin-right: 8px;
+  vertical-align: top;
+}
+
+h4 {
+  font-size: 2rem;
+  line-height: 2.8rem;
+  font-weight: bold;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #002d6b;
+}
+
+h5 {
+  text-align: center;
+  font-size: 1.9rem;
+  line-height: 4.2rem;
+  font-weight: bold;
+  color: #002d6b;
+}
+strong {
+  font-size: 3rem;
+}

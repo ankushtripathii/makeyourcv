@@ -1,0 +1,191 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="assets/css/home.css" />
+
+    <title>MakeYourCV</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <main class="maincontent">
+      <header>
+        <div class="logo">
+          <img src="assets/img/resumeicon.png" alt="" /><span>MakeYourCV</span>
+        </div>
+        <nav class="navbar">
+          <ul class="nav_links">
+            <li><a href="#resume">Resume Analyzer</a></li>
+            <li><a href="#resumtemp">Resume template</a></li>
+            <li><a href="resumewrite.html">How to write a Resume</a></li>
+            <button class="signin">Signin</button>
+            <span>|</span>
+            <button class="signup">Signup</button>
+          </ul>
+        </nav>
+      </header>
+
+      <main id="content">
+        <div class="container">
+          <p class="headline">Online Resume Builder</p>
+          <h1>It takes only 5 seconds to screen your resume. Write it well.</h1>
+          <p class="tryfree">
+            Writing a resume has never been easier. Try now for free and create
+            your professional resume within minutes. What are you waiting for?
+          </p>
+          <button class="cretrez">
+            <a href="signup.html">Create My Resume</a>
+          </button>
+        </div>
+        <div class="rezumeEX">
+          <img src="assets/img/resumetest.png" />
+        </div>
+      </main>
+    </main>
+    <div class="hrcontainer">
+      <div class="hrdesc">
+        <h1>Impressive & HR-Approved templates to land your dream job</h1>
+        <p>
+          Choose one of our professional templates. You can easily change colors
+          to any resume format you choose.
+        </p>
+        <button class="cretresum">
+          <a href="signup.html" class="cretresum">
+            Create My Resume <i class="fa fa-arrow-right"></i
+          ></a>
+        </button>
+      </div>
+      <img src="assets/img/hrimg.png" />
+    </div>
+
+    <section id="resume">
+      <h3>Coming Soon..</h3>
+      <div class="resumanalyze">
+        <h1>Resume Analyser</h1>
+        <h2>Is your resume good enough?</h2>
+        <p>
+          Our free and fast resume analyser will give you the answer in just 5
+          minutes!
+        </p>
+        <button class="analyserez">Scan Resume</button>
+      </div>
+      <img src="assets/img/Parsers-Banner.png" class="analyseimg" />
+    </section>
+    <section id="resumtemp">
+      <h1>
+        Ready to use templates that will help your resume stand out to
+        recruiters
+      </h1>
+      <h2>Every detail on your resume, built to perfection</h2>
+      <div class="carousel">
+        <ul class="rezum_info">
+          <li><a href="#Education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#personality">Personality</a></li>
+        </ul>
+      </div>
+      <section id="Education">
+        <div class="carousel_img">
+          <img src="assets/img/rezumtemp1.png" alt="" />
+          <img src="assets/img/rezumtemp2.png" alt="" />
+          <img src="assets/img/rezumtemp3.png" alt="" />
+        </div>
+      </section>
+    </section>
+
+    <footer>
+      <div class="jobseeker">
+        <h1>Job Seeker</h1>
+        <ul>
+          <li><a href="signup.html">Create Resume</a></li>
+          <li><a href="#">Resume Template</a></li>
+          <li><a href="#">How to write a Resume</a></li>
+        </ul>
+      </div>
+      <div class="contact">
+        <h1>Our Contact</h1>
+        <ul>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Linkedin</a></li>
+        </ul>
+      </div>
+      <div class="support">
+        <h1>Support</h1>
+        <ul>
+          <li><a href="#">contact Us</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms of services</a></li>
+          <li><a href="#">cookies</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script>
+      const buttonClick = document.querySelector(".signup");
+      const buttonIn = document.querySelector(".signin");
+
+      buttonClick.addEventListener("click", function (e) {
+        e.preventDefault();
+        document.location.href = "signup.html";
+      });
+      buttonIn.addEventListener("click", function (e) {
+        e.preventDefault();
+        document.location.href = "signin.html";
+      });
+    </script>
+  </body>
+</html>
+
+<!-- <div class="carousel">
+  <button class="carousel_button previous" id="previous"><</button>
+  <div class="carousel_img">
+    <img src="assets/img/rezumtemp1.png" alt="" />
+    <img src="assets/img/rezumtemp2.png" alt="" />
+    <img src="assets/img/rezumtemp3.png" alt="" />
+    <img src="assets/img/rezumtemp4.png" alt="" />
+    <img src="assets/img/rezumtemp5.png" alt="" />
+  </div>
+  <button class="carousel_button next" id="next">></button>
+</div> -->
+
+<!-- JSON -->
+
+<!-- sign In page -->
+<!---
+<div class="modalCont">
+  <div class="forms">
+    <div class="form login">
+      <span class="title">Sign In</span>
+
+      <form action="#">
+        <div class="input-field">
+          <input type="text" placeholder="Enter your email" required />
+          <i class="uil uil-envelope icon"></i>
+        </div>
+
+          <a href="#" class="text">Forgot password?</a>
+        </div>
+
+        <div class="input-field button">
+          <input type="button" value="Login" />
+        </div>
+      </form>
+
+      <div class="login-signup">
+        <span class="text"
+          >Not a member?
+          <a href="#" class="text signup-link">Signup Now</a>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+-->
